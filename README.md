@@ -67,7 +67,7 @@ Bem-vindo ao meu portfólio! Sou um desenvolvedor Front-End apaixonado por criar
 
 1. Clone ou faça o download deste repositório.
 2. Abra o arquivo `index.html` no seu navegador da web.
-3. Ou acesse o o link: 
+3. Ou acesse o o link: https://site-portifolio-gustavo.netlify.app/
 
 ## Contato
 
