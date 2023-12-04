@@ -72,7 +72,7 @@ Bem-vindo ao meu portfólio! Sou um desenvolvedor Front-End apaixonado por criar
 ## Contato
 
 - [LinkedIn](https://www.linkedin.com/in/gustavo-henrique-nogueira-deranzani-bicudo-11659a221/)
-- [Email](guuhnog@gmail.com)
+- Email: guuhnog@gmail.com
 
 Sinta-se à vontade para explorar meus projetos e entrar em contato para discutir oportunidades de colaboração!
 
