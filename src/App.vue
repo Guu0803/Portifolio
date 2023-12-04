@@ -108,9 +108,9 @@
             <div class="description" id="spotify">
               <div class="title-description">
                 Spotify
-                <span class="material-icons open-in">
-                  open_in_new
-                </span>
+                <a href="https://gustavo-spotify.netlify.app"> <span class="material-icons open-in">
+                    open_in_new
+                  </span> </a>
               </div>
               Este projeto é um clone do aplicativo de desktop do Spotify, uma das plataformas mais populares de streaming
               de música do mundo. O objetivo era recriar o design do app do Spotify para a web.
@@ -121,9 +121,9 @@
             <div class="description" id="space">
               <div class="title-description">
                 SpaceFlix
-                <span class="material-icons open-in">
-                  open_in_new
-                </span>
+                <a href="https://space-flix.netlify.app"> <span class="material-icons open-in">
+                    open_in_new
+                  </span> </a>
               </div>
               SpaceFlix é um projeto de streaming pessoal, onde simula um web site de streaming com uma variedade de mais
               de 90 titulos famosos dentre filmes, séries e animes.
@@ -134,9 +134,9 @@
             <div class="description" id="weather">
               <div class="title-description">
                 Weather App
-                <span class="material-icons open-in">
-                  open_in_new
-                </span>
+                <a href="https://gustavo-weather.netlify.app"> <span class="material-icons open-in">
+                    open_in_new
+                  </span> </a>
               </div>
               É um projeto de um aplicativo de previsão do tempo que fornece informações meteorológicas em tempo real e
               previsões detalhadas para os usuários. Este aplicativo foi desenvolvido com o uso de API HG Weather.
@@ -147,9 +147,9 @@
             <div class="description" id="jokenpo">
               <div class="title-description">
                 Pedra, Papel e Tesoura
-                <span class="material-icons open-in">
-                  open_in_new
-                </span>
+                <a href="https://gustavo-jokenpo.netlify.app"> <span class="material-icons open-in">
+                    open_in_new
+                  </span> </a>
               </div>
               Este projeto é um jogo interativo e divertido de "Pedra, Papel e Tesoura" criado com o framework Vue.js. Ele
               oferece uma experiência de jogo clássica, permitindo que os usuários escolham entre pedra, papel ou tesoura
@@ -183,7 +183,7 @@
 export default {
   data() {
     return {
-      teste: '0'
+      position: '0'
     }
   },
   methods: {
@@ -198,13 +198,13 @@ export default {
     index(section) {
       let showWindow = document.getElementById('container')
       showWindow.style.top = '-' + section + '00vh'
-      this.teste = section
-
+      this.position = section
     },
     selected(index) {
-      if (index == this.teste) return 'background-color: var(--red);'
+      if (index == this.position) return 'background-color: var(--red);'
     }
   }
+
 }
 </script>
 <style>
@@ -480,14 +480,17 @@ button:hover>a {
   justify-content: space-between;
   align-items: center;
 }
+
 .open-in {
   color: rgb(211, 206, 206);
   cursor: pointer;
   font-size: 2.5vh;
 }
+
 .open-in:hover {
   color: var(--red);
 }
+
 .description {
   font-size: 2.1vh;
   width: 100%;
